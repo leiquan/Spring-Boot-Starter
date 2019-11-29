@@ -3,3 +3,13 @@ server:
   servlet:
     context-path: /luckymoney
 
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://agileloop.mysql.polardb.rds.aliyuncs.com/testdb
+    username: testdb
+    password: testdb@18036
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
