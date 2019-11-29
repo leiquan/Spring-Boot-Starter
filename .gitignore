@@ -2,3 +2,6 @@
 .idea
 target
 learn.iml
+.settings
+.classpath
+.project
