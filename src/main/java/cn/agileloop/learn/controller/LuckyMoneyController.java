@@ -28,6 +28,7 @@ public class LuckyMoneyController {
         Luckmoney luckmoney = new Luckmoney();
         luckmoney.setProducer(producer);
         luckmoney.setMoney(money);
+
         return repository.save(luckmoney);
     }
 }
